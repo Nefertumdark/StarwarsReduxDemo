@@ -8,7 +8,7 @@ export default function updateResults (searchKey, filter)
         var results = response.data.results;
         if(filter !== "")
         {
-            if(searchKey == "Films"){
+            if(searchKey === "Films"){
                 results = response.data.results.filter(item => item.title.includes(filter));
             }
             else{

@@ -1,5 +1,4 @@
-const initialstate = { categories: [{ Name: "Planets"}, { Name: "Starships"}, { Name: "Vehicles"}, { Name: "People"}, { Name: "Films"}, { Name: "Species"}],
-	searchKey: "Planets",
+const initialstate = { searchKey: "Planets",
 	detail : "",
 	filter : "",
 	foundItems: []
